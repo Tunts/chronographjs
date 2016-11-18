@@ -9,6 +9,6 @@ To see the power run:
 
 ```
 node
-> var tst = require('./index');
+> var tst = require('chronographjs');
 > tst.runExample();
 ```
