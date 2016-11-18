@@ -15,7 +15,7 @@ node
 
 ### More detailed example
 You can see the code that runs `tst.runExample()` bellow or you can [check it here](https://github.com/Tunts/chronographjs/blob/master/example.es6)
-```
+```javascript
    var chronographjs = require('chronographjs');
    var timer = new chronographjs.getTimer();
 
