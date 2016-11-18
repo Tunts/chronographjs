@@ -1,0 +1,25 @@
+{
+  "name": "chronographjs",
+  "version": "0.1.0",
+  "description": "A small nano timer for NodeJS applications based on proccess.hrtime",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tunts/chronographjs.git"
+  },
+  "keywords": [
+    "nanoseconds",
+    "timer",
+    "chronograph",
+    "hrtime"
+  ],
+  "author": "Wesley Akio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tunts/chronographjs/issues"
+  },
+  "homepage": "https://github.com/Tunts/chronographjs#readme"
+}
