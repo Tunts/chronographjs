@@ -57,6 +57,19 @@ TntTimer.prototype.time = function (name1, name2) {
     return this.timers[name1].start.drift(this.timers[name2].end);
 };
 
+TntTimer.prototype.times = function (funcName, suffix) {
+    let timersTime = {};
+    for (let timeIndex in this.timers) {
+        if (typeof this.time(timeIndex)[funcName] === 'function') {
+            timersTime[timeIndex] = this.time(timeIndex)[funcName](suffix);
+        } else {
+            timersTime[timeIndex] = this.time(timeIndex);
+        }
+    }
+    return timersTime;
+};
+
+
 TntTimer.prototype.total = function (tag) {
     if (tag) {
         if (this.tags[tag]) {

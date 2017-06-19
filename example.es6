@@ -42,4 +42,6 @@ module.exports = function () {
     console.log('we also blocked for %s in raw compute', timer.total('raw_compute').msecs(true));
     var total = timer.total();
     console.log('With all our console logs we took a total of %s or %s or %s or %s', total.secs(true), total.msecs(true), total.usecs(true), total.nsecs(true));
-}
+    console.log('And finally, we can get an object with all the times: \n', timer.times('usecs', true));
+
+};
