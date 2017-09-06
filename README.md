@@ -72,7 +72,7 @@ From that time, 1.730105 ms were selects
 0.002231 ms in the log database
 we also blocked for 2.58467 ms in raw compute
 With all our console logs we took a total of 0.01429958 s or 14.29958 ms or 14299.58 us or 14299580 ns
-And finally, we can get a object with all the times, this is pretty usual to logging and debugs:
+And finally, we can get a object with all the times:
  {
   tnt_timer: '34804.649 us',
   t1: '6272.982 us',
